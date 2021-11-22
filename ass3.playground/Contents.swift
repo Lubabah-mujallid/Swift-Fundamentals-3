@@ -23,7 +23,7 @@ for _ in 0..<100{
 }
 //print(array)
 
-let index = (array.firstIndex(of: 42) ?? 0) as Int
+let index = (array.firstIndex(of: 42))!
 array.remove(at: index)
 print("the answer to all the problems of my math teachers is actually at index: \(index)")
  
